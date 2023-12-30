@@ -115,6 +115,8 @@ int *get_candidates(Cell *cell)
         if (cell->candidates[i])
         {
             out[counter++] = i + 1;
+            // out[counter] = i+1;
+            // counter++;
         }
     }
     return out;
